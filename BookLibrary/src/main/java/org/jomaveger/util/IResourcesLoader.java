@@ -53,4 +53,15 @@ public interface IResourcesLoader {
 	    
 	    return file.getAbsolutePath();	
 	}
+	
+	static URL getResourceFileURL(String fileName) throws IOException {
+	    ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+	    
+	    URL url = classLoader.getResource(fileName);
+	    
+	    if (url == null)
+	    	return null;
+	    
+	    return url;	
+	}
 }

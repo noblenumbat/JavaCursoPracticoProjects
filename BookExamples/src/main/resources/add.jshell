@@ -1,4 +1,4 @@
-#!/usr/bin/java --source 11
+#!/usr/bin/java --source 17
 
 import java.util.Arrays;
 
