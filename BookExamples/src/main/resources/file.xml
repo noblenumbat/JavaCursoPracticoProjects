@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<company>
+    <staff>
+        <firstname>John</firstname>
+        <lastname>Rambo</lastname>
+        <email>john.rambo@gov.us</email>
+        <salary>100000</salary>
+    </staff>
+    <staff>
+        <firstname>John</firstname>
+        <lastname>Connor</lastname>
+        <email>john.connor@genesis.com</email>
+        <salary>200000</salary>
+    </staff>
+</company>
